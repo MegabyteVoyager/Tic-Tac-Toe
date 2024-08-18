@@ -1,0 +1,77 @@
+*{
+    font-family: Protest Riot;
+}
+h1{
+    font-size:2.7em;
+
+}
+.box{
+    height: 300px;
+    width:300px;
+    border: 2px solid black;
+    display:flex;
+    flex-direction:column;
+}
+.h_box{
+    width:100%;
+    height:33.33%;
+    display: flex;
+    flex-direction: row;
+    border:none;
+}
+.btn{
+    width:33.33%;
+    background-color: #FBEAFF;
+    border: 1px solid black;
+    color:rgb(25, 136, 201);
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #008D82;
+}
+.reset_btn{
+    font-size: larger;
+    font-weight: 300;
+    width:min-content;
+    height: min-content;
+    padding:10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0;
+
+}
+.reset_btn:hover{
+    cursor: pointer;
+}
+.msg{
+    background-color: rgba(224, 133, 133, 0.856);
+    color: white;
+    font-size: x-large;
+    width: min-content;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+.score{
+    position: fixed;
+    text-align: center;
+    font-size: 1.2rem;
+    color:rgb(80, 11, 23);
+}
+.score span{
+    font-size: 1.9rem;
+}
+.scoreX{
+    left: 140px;
+    top:240px;
+}
+.scoreO{
+    right: 140px;
+    top:240px;
+}
